@@ -6,20 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fundamentos - display flex</title>
     <style>
-        .flex {
+        .flex{
             max-width: 300px;
-            padding: 10px;
-            border: 2px solid black;
-            display: flex;
-        }
+            margin: 0;
+            padding: 0;
+            border: solid 2px;
+            display:flex;
+            box-sizing: border-box;
 
-        .item {
+        }
+        .item{
             background-color: aqua;
             margin: 5px;
         }
     </style>
 </head>
 <body>  
+
+    <!--display: flex tem como padrão jogar os itens pro lado-->
     <div class="flex">
         <div class="item">item 1</div>
         <div class="item">item 2</div>
